@@ -118,6 +118,7 @@ class _CurvedNavigationBarState extends State<CurvedNavigationBar>
                     length: _length,
                     index: widget.items.indexOf(item),
                     child: item,
+                    height: widget.height,
                   );
                 }).toList())),
           ),
